@@ -5,7 +5,7 @@
   "files": [
     {
       "name": "app.html",
-      "path": "src/app",
+      "path": "src/app/app.html",
       "nbLines": 0,
       "nbComments": 0,
       "nbCloc": 0,
@@ -20,7 +20,7 @@
     },
     {
       "name": "test.html",
-      "path": "src/app/test",
+      "path": "src/app/test/test.html",
       "nbLines": 76,
       "nbComments": 0,
       "nbCloc": 75,
@@ -39,7 +39,7 @@
           "rulekey": "tag-self-close",
           "severity": "minor",
           "reporter": "htmlhint",
-          "creationDate": 1480692778563
+          "creationDate": 1480692955655
         },
         {
           "line": 29,
@@ -48,13 +48,13 @@
           "rulekey": "tag-self-close",
           "severity": "minor",
           "reporter": "htmlhint",
-          "creationDate": 1480692778563
+          "creationDate": 1480692955655
         }
       ]
     },
     {
       "name": "index.html",
-      "path": "src/public",
+      "path": "src/public/index.html",
       "nbLines": 13,
       "nbComments": 0,
       "nbCloc": 13,

@@ -5,7 +5,7 @@
   "files": [
     {
       "name": "app.component.js",
-      "path": "src/app",
+      "path": "src/app/app.component.js",
       "nbLines": 5,
       "nbComments": 0,
       "nbCloc": 5,
@@ -20,7 +20,7 @@
     },
     {
       "name": "app.config.js",
-      "path": "src/app",
+      "path": "src/app/app.config.js",
       "nbLines": 16,
       "nbComments": 0,
       "nbCloc": 15,
@@ -39,13 +39,13 @@
           "rulekey": "no-unused-vars",
           "severity": "info",
           "reporter": "eslint",
-          "creationDate": 1480692778318
+          "creationDate": 1480692955408
         }
       ]
     },
     {
       "name": "app.js",
-      "path": "src/app",
+      "path": "src/app/app.js",
       "nbLines": 25,
       "nbComments": 0,
       "nbCloc": 25,
@@ -60,7 +60,7 @@
     },
     {
       "name": "app.route.js",
-      "path": "src/app",
+      "path": "src/app/app.route.js",
       "nbLines": 21,
       "nbComments": 0,
       "nbCloc": 21,
@@ -79,7 +79,7 @@
           "rulekey": "key-spacing",
           "severity": "info",
           "reporter": "eslint",
-          "creationDate": 1480692778389
+          "creationDate": 1480692955475
         },
         {
           "line": 14,
@@ -88,7 +88,7 @@
           "rulekey": "key-spacing",
           "severity": "info",
           "reporter": "eslint",
-          "creationDate": 1480692778389
+          "creationDate": 1480692955475
         },
         {
           "line": 15,
@@ -97,13 +97,13 @@
           "rulekey": "key-spacing",
           "severity": "info",
           "reporter": "eslint",
-          "creationDate": 1480692778389
+          "creationDate": 1480692955475
         }
       ]
     },
     {
       "name": "test.controller.js",
-      "path": "src/app/test",
+      "path": "src/app/test/test.controller.js",
       "nbLines": 21,
       "nbComments": 0,
       "nbCloc": 21,
@@ -122,7 +122,7 @@
           "rulekey": "angular/no-service-method",
           "severity": "info",
           "reporter": "eslint",
-          "creationDate": 1480692778416
+          "creationDate": 1480692955503
         },
         {
           "line": 12,
@@ -131,7 +131,7 @@
           "rulekey": "angular/controller-name",
           "severity": "info",
           "reporter": "eslint",
-          "creationDate": 1480692778416
+          "creationDate": 1480692955503
         },
         {
           "line": 19,
@@ -140,7 +140,7 @@
           "rulekey": "no-unused-vars",
           "severity": "info",
           "reporter": "eslint",
-          "creationDate": 1480692778416
+          "creationDate": 1480692955503
         }
       ]
     }
