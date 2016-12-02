@@ -5,7 +5,7 @@
   "files": [
     {
       "name": "app.html",
-      "path": "src/app",
+      "path": "src/app/app.html",
       "nbLines": 0,
       "nbComments": 0,
       "nbCloc": 0,
@@ -20,7 +20,7 @@
     },
     {
       "name": "index.html",
-      "path": "src/public",
+      "path": "src/public/index.html",
       "nbLines": 13,
       "nbComments": 0,
       "nbCloc": 13,
