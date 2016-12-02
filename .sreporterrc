@@ -5,6 +5,11 @@
     "report": "reports/sonar/eslint.json",
     "rulesFile": "src/.eslintrc"
   },
+  "eslintangular": {
+    "src": "src/**/*.js",
+    "report": "reports/sonar/eslint-angular.json",
+    "rulesFile": "src/.eslintrc"
+  },
   "htmlhint": {
     "src": "src/**/*.html",
     "report": "reports/sonar/htmlhint.json",

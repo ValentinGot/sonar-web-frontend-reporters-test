@@ -11,6 +11,7 @@
     "no-unsafe-negation": "error",
     "block-scoped-var": "error",
     "curly": "error",
+    "no-unused-vars": "error",
     "default-case": "error",
     "dot-notation": "error",
     "eqeqeq": "error",
