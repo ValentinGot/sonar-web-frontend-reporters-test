@@ -1,0 +1,52 @@
+{
+  "project": "SonarWebReporter Test",
+  "projectPath": ".",
+  "version": "1.1.0",
+  "files": [
+    {
+      "name": "main.scss",
+      "path": "src/styles",
+      "nbLines": 3,
+      "nbComments": 0,
+      "nbCloc": 3,
+      "violations": {
+        "blocker": 0,
+        "critical": 0,
+        "major": 0,
+        "minor": 2,
+        "info": 0
+      },
+      "issues": [
+        {
+          "line": 2,
+          "message": "Hex values should use the long-form format - 6 characters",
+          "description": "Hex values should use the long-form format - 6 characters",
+          "rulekey": "hex-length",
+          "severity": "minor",
+          "reporter": "sasslint",
+          "creationDate": 1480672842306
+        },
+        {
+          "line": 2,
+          "message": "Color literals such as '#FFF' should only be used in variable declarations",
+          "description": "Color literals such as '#FFF' should only be used in variable declarations",
+          "rulekey": "no-color-literals",
+          "severity": "minor",
+          "reporter": "sasslint",
+          "creationDate": 1480672842306
+        }
+      ]
+    }
+  ],
+  "nbFiles": 1,
+  "nbLines": 3,
+  "nbCloc": 3,
+  "nbComments": 0,
+  "violations": {
+    "blocker": 0,
+    "critical": 0,
+    "major": 0,
+    "minor": 2,
+    "info": 0
+  }
+}

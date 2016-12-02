@@ -1,0 +1,88 @@
+{
+  "project": "SonarWebReporter Test",
+  "projectPath": ".",
+  "version": "1.1.0",
+  "files": [
+    {
+      "name": "app.component.js",
+      "path": "src/app",
+      "nbLines": 5,
+      "nbComments": 0,
+      "nbCloc": 5,
+      "violations": {
+        "blocker": 0,
+        "critical": 0,
+        "major": 0,
+        "minor": 0,
+        "info": 0
+      },
+      "issues": []
+    },
+    {
+      "name": "app.config.js",
+      "path": "src/app",
+      "nbLines": 16,
+      "nbComments": 0,
+      "nbCloc": 15,
+      "violations": {
+        "blocker": 0,
+        "critical": 0,
+        "major": 0,
+        "minor": 0,
+        "info": 1
+      },
+      "issues": [
+        {
+          "line": 7,
+          "message": "'useless' is assigned a value but never used.",
+          "description": "",
+          "rulekey": "ng_no_unused_vars",
+          "severity": "info",
+          "reporter": "eslintangular",
+          "creationDate": 1480673404024
+        }
+      ]
+    },
+    {
+      "name": "app.js",
+      "path": "src/app",
+      "nbLines": 25,
+      "nbComments": 0,
+      "nbCloc": 25,
+      "violations": {
+        "blocker": 0,
+        "critical": 0,
+        "major": 0,
+        "minor": 0,
+        "info": 0
+      },
+      "issues": []
+    },
+    {
+      "name": "app.route.js",
+      "path": "src/app",
+      "nbLines": 15,
+      "nbComments": 0,
+      "nbCloc": 15,
+      "violations": {
+        "blocker": 0,
+        "critical": 0,
+        "major": 0,
+        "minor": 0,
+        "info": 0
+      },
+      "issues": []
+    }
+  ],
+  "nbFiles": 4,
+  "nbLines": 61,
+  "nbCloc": 60,
+  "nbComments": 0,
+  "violations": {
+    "blocker": 0,
+    "critical": 0,
+    "major": 0,
+    "minor": 0,
+    "info": 1
+  }
+}
