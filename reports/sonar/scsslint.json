@@ -5,7 +5,7 @@
   "files": [
     {
       "name": "main.scss",
-      "path": "src/styles/main.scss",
+      "path": "/main.scss",
       "nbLines": 3,
       "nbComments": 0,
       "nbCloc": 3,
@@ -24,7 +24,7 @@
           "rulekey": "hex-length",
           "severity": "minor",
           "reporter": "sasslint",
-          "creationDate": 1480673825462
+          "creationDate": 1480674191348
         },
         {
           "line": 2,
@@ -33,7 +33,7 @@
           "rulekey": "no-color-literals",
           "severity": "minor",
           "reporter": "sasslint",
-          "creationDate": 1480673825463
+          "creationDate": 1480674191348
         }
       ]
     }

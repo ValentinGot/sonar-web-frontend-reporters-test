@@ -5,7 +5,7 @@
   "files": [
     {
       "name": "app.component.js",
-      "path": "src/app/app.component.js",
+      "path": "/app.component.js",
       "nbLines": 5,
       "nbComments": 0,
       "nbCloc": 5,
@@ -20,7 +20,7 @@
     },
     {
       "name": "app.config.js",
-      "path": "src/app/app.config.js",
+      "path": "/app.config.js",
       "nbLines": 16,
       "nbComments": 0,
       "nbCloc": 15,
@@ -39,13 +39,13 @@
           "rulekey": "ng_no_unused_vars",
           "severity": "info",
           "reporter": "eslintangular",
-          "creationDate": 1480673825280
+          "creationDate": 1480674191214
         }
       ]
     },
     {
       "name": "app.js",
-      "path": "src/app/app.js",
+      "path": "/app.js",
       "nbLines": 25,
       "nbComments": 0,
       "nbCloc": 25,
@@ -60,7 +60,7 @@
     },
     {
       "name": "app.route.js",
-      "path": "src/app/app.route.js",
+      "path": "/app.route.js",
       "nbLines": 15,
       "nbComments": 0,
       "nbCloc": 15,
