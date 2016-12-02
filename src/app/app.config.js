@@ -4,6 +4,8 @@
 export default function (ENVIRONNEMENT, $compileProvider, $locationProvider) {
   'ngInject';
 
+  let useless = 'a';
+
   // Reference: https://docs.angularjs.org/api/ng/provider/$locationProvider#html5Mode
   $locationProvider.html5Mode(true);
 

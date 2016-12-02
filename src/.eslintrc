@@ -135,10 +135,10 @@
   "env": {
     "browser": true
   },
-  "globals": {
-    "angular": true,
-    "module": true,
-    "inject": true,
-    "require": true
-  }
+  "globals": [
+    "angular",
+    "module",
+    "inject",
+    "require"
+  ]
 }

@@ -1,0 +1,18 @@
+{
+  "projectName": "SonarWebReporter Test",
+  "eslint": {
+    "src": "src/**/*.js",
+    "report": "reports/sonar/eslint.json",
+    "rulesFile": "src/.eslintrc"
+  },
+  "htmlhint": {
+    "src": "src/**/*.html",
+    "report": "reports/sonar/htmlhint.json",
+    "rulesFile": "src/.htmlhintrc"
+  },
+  "sasslint": {
+    "src": "src/**/*.s+(a|c)ss",
+    "report": "reports/sonar/sasslint.json",
+    "rulesFile": "src/.sass-lint.yml"
+  }
+}

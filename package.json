@@ -9,13 +9,15 @@
     "serve": "webpack-dev-server --history-api-fallback --inline --progress --hot --env dev",
     "serve:prod": "webpack-dev-server --history-api-fallback --inline --progress --hot --env prod",
     "test": "npm run-script lint",
-    "lint": "eslint src/ && htmlhint src/ && sass-lint -v -q"
+    "lint": "eslint src/ && htmlhint src/ && sass-lint -v -q",
+    "sonar:reporters": "node node_modules/sonar-web-frontend-reporters/bin/sreporter.js"
   },
   "dependencies": {
     "angular": "^1.5.8",
     "angular-aria": "^1.5.8",
     "angular-ui-router": "^1.0.0-beta.3",
-    "restangular": "^1.5.2"
+    "restangular": "^1.5.2",
+    "sonar-web-frontend-reporters": "git://github.com/groupe-sii/sonar-web-frontend-reporters.git#develop"
   },
   "devDependencies": {
     "angular-mocks": "^1.5.8",
@@ -36,8 +38,8 @@
     "postcss-loader": "^1.1.1",
     "raw-loader": "^0.5.1",
     "rimraf": "^2.5.1",
-    "sass-loader": "^4.0.2",
     "sass-lint": "^1.10.2",
+    "sass-loader": "^4.0.2",
     "style-loader": "^0.13.1",
     "webpack": "^1.13.2",
     "webpack-dev-server": "^1.16.1",
