@@ -21,181 +21,181 @@
           "line": 2,
           "message": "Color literals such as '#FFF' should only be used in variable declarations",
           "description": "Color literals such as '#FFF' should only be used in variable declarations",
-          "rulekey": "no-color-literals",
+          "rulekey": "ColorVariable",
           "severity": "minor",
           "reporter": "sasslint",
-          "creationDate": 1480692701941
+          "creationDate": 1480692778645
         },
         {
           "line": 2,
           "message": "Hex values should use the long-form format - 6 characters",
           "description": "Hex values should use the long-form format - 6 characters",
-          "rulekey": "hex-length",
+          "rulekey": "HexLength",
           "severity": "minor",
           "reporter": "sasslint",
-          "creationDate": 1480692701941
+          "creationDate": 1480692778645
         },
         {
           "line": 3,
           "message": "Space expected between blocks",
           "description": "Space expected between blocks",
-          "rulekey": "empty-line-between-blocks",
+          "rulekey": "EmptyLineBetweenBlocks",
           "severity": "minor",
           "reporter": "sasslint",
-          "creationDate": 1480692701941
+          "creationDate": 1480692778645
         },
         {
           "line": 4,
           "message": "Hex values should use the long-form format - 6 characters",
           "description": "Hex values should use the long-form format - 6 characters",
-          "rulekey": "hex-length",
+          "rulekey": "HexLength",
           "severity": "minor",
           "reporter": "sasslint",
-          "creationDate": 1480692701941
+          "creationDate": 1480692778645
         },
         {
           "line": 4,
           "message": "Color literals such as '#FFF' should only be used in variable declarations",
           "description": "Color literals such as '#FFF' should only be used in variable declarations",
-          "rulekey": "no-color-literals",
+          "rulekey": "ColorVariable",
           "severity": "minor",
           "reporter": "sasslint",
-          "creationDate": 1480692701941
+          "creationDate": 1480692778645
         },
         {
           "line": 5,
           "message": "Space expected between blocks",
           "description": "Space expected between blocks",
-          "rulekey": "empty-line-between-blocks",
+          "rulekey": "EmptyLineBetweenBlocks",
           "severity": "minor",
           "reporter": "sasslint",
-          "creationDate": 1480692701941
+          "creationDate": 1480692778645
         },
         {
           "line": 6,
           "message": "Color literals such as '#FFF' should only be used in variable declarations",
           "description": "Color literals such as '#FFF' should only be used in variable declarations",
-          "rulekey": "no-color-literals",
+          "rulekey": "ColorVariable",
           "severity": "minor",
           "reporter": "sasslint",
-          "creationDate": 1480692701941
+          "creationDate": 1480692778645
         },
         {
           "line": 6,
           "message": "Hex values should use the long-form format - 6 characters",
           "description": "Hex values should use the long-form format - 6 characters",
-          "rulekey": "hex-length",
+          "rulekey": "HexLength",
           "severity": "minor",
           "reporter": "sasslint",
-          "creationDate": 1480692701941
+          "creationDate": 1480692778645
         },
         {
           "line": 7,
           "message": "Space expected between blocks",
           "description": "Space expected between blocks",
-          "rulekey": "empty-line-between-blocks",
+          "rulekey": "EmptyLineBetweenBlocks",
           "severity": "minor",
           "reporter": "sasslint",
-          "creationDate": 1480692701941
+          "creationDate": 1480692778645
         },
         {
           "line": 8,
           "message": "Color literals such as '#FFF' should only be used in variable declarations",
           "description": "Color literals such as '#FFF' should only be used in variable declarations",
-          "rulekey": "no-color-literals",
+          "rulekey": "ColorVariable",
           "severity": "minor",
           "reporter": "sasslint",
-          "creationDate": 1480692701941
+          "creationDate": 1480692778645
         },
         {
           "line": 8,
           "message": "Hex values should use the long-form format - 6 characters",
           "description": "Hex values should use the long-form format - 6 characters",
-          "rulekey": "hex-length",
+          "rulekey": "HexLength",
           "severity": "minor",
           "reporter": "sasslint",
-          "creationDate": 1480692701941
+          "creationDate": 1480692778645
         },
         {
           "line": 9,
           "message": "Space expected between blocks",
           "description": "Space expected between blocks",
-          "rulekey": "empty-line-between-blocks",
+          "rulekey": "EmptyLineBetweenBlocks",
           "severity": "minor",
           "reporter": "sasslint",
-          "creationDate": 1480692701941
+          "creationDate": 1480692778645
         },
         {
           "line": 10,
           "message": "Color literals such as '#FFF' should only be used in variable declarations",
           "description": "Color literals such as '#FFF' should only be used in variable declarations",
-          "rulekey": "no-color-literals",
+          "rulekey": "ColorVariable",
           "severity": "minor",
           "reporter": "sasslint",
-          "creationDate": 1480692701941
+          "creationDate": 1480692778645
         },
         {
           "line": 10,
           "message": "Hex values should use the long-form format - 6 characters",
           "description": "Hex values should use the long-form format - 6 characters",
-          "rulekey": "hex-length",
+          "rulekey": "HexLength",
           "severity": "minor",
           "reporter": "sasslint",
-          "creationDate": 1480692701941
+          "creationDate": 1480692778645
         },
         {
           "line": 11,
           "message": "Space expected between blocks",
           "description": "Space expected between blocks",
-          "rulekey": "empty-line-between-blocks",
+          "rulekey": "EmptyLineBetweenBlocks",
           "severity": "minor",
           "reporter": "sasslint",
-          "creationDate": 1480692701941
+          "creationDate": 1480692778645
         },
         {
           "line": 12,
           "message": "Hex values should use the long-form format - 6 characters",
           "description": "Hex values should use the long-form format - 6 characters",
-          "rulekey": "hex-length",
+          "rulekey": "HexLength",
           "severity": "minor",
           "reporter": "sasslint",
-          "creationDate": 1480692701941
+          "creationDate": 1480692778645
         },
         {
           "line": 12,
           "message": "Color literals such as '#FFF' should only be used in variable declarations",
           "description": "Color literals such as '#FFF' should only be used in variable declarations",
-          "rulekey": "no-color-literals",
+          "rulekey": "ColorVariable",
           "severity": "minor",
           "reporter": "sasslint",
-          "creationDate": 1480692701941
+          "creationDate": 1480692778645
         },
         {
           "line": 13,
           "message": "Space expected between blocks",
           "description": "Space expected between blocks",
-          "rulekey": "empty-line-between-blocks",
+          "rulekey": "EmptyLineBetweenBlocks",
           "severity": "minor",
           "reporter": "sasslint",
-          "creationDate": 1480692701941
+          "creationDate": 1480692778645
         },
         {
           "line": 14,
           "message": "Hex values should use the long-form format - 6 characters",
           "description": "Hex values should use the long-form format - 6 characters",
-          "rulekey": "hex-length",
+          "rulekey": "HexLength",
           "severity": "minor",
           "reporter": "sasslint",
-          "creationDate": 1480692701941
+          "creationDate": 1480692778645
         },
         {
           "line": 14,
           "message": "Color literals such as '#FFF' should only be used in variable declarations",
           "description": "Color literals such as '#FFF' should only be used in variable declarations",
-          "rulekey": "no-color-literals",
+          "rulekey": "ColorVariable",
           "severity": "minor",
           "reporter": "sasslint",
-          "creationDate": 1480692701941
+          "creationDate": 1480692778645
         }
       ]
     }

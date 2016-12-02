@@ -15,7 +15,7 @@
     "report": "reports/sonar/htmlhint.json",
     "rulesFile": "src/.htmlhintrc"
   },
-  "sasslint": {
+  "sass-to-scsslint": {
     "src": "src/**/*.s+(a|c)ss",
     "report": "reports/sonar/scsslint.json",
     "rulesFile": "src/.sass-lint.yml"

@@ -39,7 +39,7 @@
           "rulekey": "tag-self-close",
           "severity": "minor",
           "reporter": "htmlhint",
-          "creationDate": 1480692701858
+          "creationDate": 1480692778563
         },
         {
           "line": 29,
@@ -48,7 +48,7 @@
           "rulekey": "tag-self-close",
           "severity": "minor",
           "reporter": "htmlhint",
-          "creationDate": 1480692701858
+          "creationDate": 1480692778563
         }
       ]
     },
