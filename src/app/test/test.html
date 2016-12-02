@@ -1,0 +1,76 @@
+<h2 class="page-sub-title">
+  <div layout="row" layout-align="space-between end">
+    <span>{{ 'document.template.type.paiement' | translate }}</span>
+  </div>
+</h2>
+
+<div layout="row" layout-align="space-around center" class="mandates-management-last-wrapper">
+  <div ng-if="edm.paymentTemplate" layout="row" layout-align="space-around center" flex>
+    <span>{{ edm.paymentTemplate.dateDepot | timestamp | date:'dd/MM/yyyy'}}</span>
+    <span>{{edm.paymentTemplate.filePath}}</span>
+  </div>
+
+  <div ng-if="!edm.paymentTemplate" class="grey-500-cl" flex>{{ 'document.template.nothing' | translate }}</div>
+
+  <span>
+    <a ng-href="{{ edm.restURL }}/fichier-modele-paiement/{{ template.id }}/download?key={{edm.paymentTemplate.key}}" ng-if="edm.paymentTemplate" target="_blank">
+      <md-icon>file_download</md-icon>
+
+      <md-tooltip md-direction="top">{{ 'document.template.download' | translate }}</md-tooltip>
+    </a>
+    <md-button class="md-icon-button" ng-click="edm.uploadPaymentTemplate($event)" ng-if="app.isUserAdmin()">
+      <md-icon>file_upload</md-icon>
+
+      <md-tooltip md-direction="top">{{ 'document.template.upload' | translate }}</md-tooltip>
+    </md-button>
+  </span>
+</div>
+
+<br><br>
+
+
+<h2 class="page-sub-title">
+  <div layout="row" layout-align="space-between end">
+    <span>{{ 'document.template.type.other' | translate }}</span>
+  </div>
+</h2>
+<table class="md-table table-election table-full-width">
+  <thead class="align-left">
+    <tr>
+      <th>{{ 'date' | translate }}</th>
+      <th>{{ 'name' | translate }}</th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr ng-repeat="template in edm.templates">
+      <td>{{ template.dateDepot | timestamp | date:'dd/MM/yyyy'}}</td>
+      <td>{{template.filePath}}</td>
+      <td layout="row" layout-align="end center">
+        <a href="{{ edm.restURL }}/fichier-modele/{{ template.id }}/download?key={{template.key}}" target="_blank">
+          <md-icon>file_download</md-icon>
+
+          <md-tooltip md-direction="top">{{ 'document.template.download' | translate }}</md-tooltip>
+        </a>
+
+        <md-button class="md-icon-button" ng-click="edm.deleteTemplate(template)" ng-if="app.isUserAdmin()">
+          <md-icon>remove_circle</md-icon>
+
+          <md-tooltip md-direction="top">{{ 'delete' | translate }}</md-tooltip>
+        </md-button>
+      </td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td layout="row" layout-align="end center">
+          <md-button class="md-icon-button" ng-click="edm.uploadTemplate()" ng-if="app.isUserAdmin()">
+            <md-icon>add_circle</md-icon>
+
+            <md-tooltip md-direction="top">{{ 'document.template.upload' | translate }}</md-tooltip>
+          </md-button>
+        </td>
+    </tr>
+  </tbody>
+</table>

@@ -5,7 +5,7 @@
   "files": [
     {
       "name": "app.html",
-      "path": "/app.html",
+      "path": "src/app",
       "nbLines": 0,
       "nbComments": 0,
       "nbCloc": 0,
@@ -19,8 +19,42 @@
       "issues": []
     },
     {
+      "name": "test.html",
+      "path": "src/app/test",
+      "nbLines": 76,
+      "nbComments": 0,
+      "nbCloc": 75,
+      "violations": {
+        "blocker": 0,
+        "critical": 0,
+        "major": 0,
+        "minor": 2,
+        "info": 0
+      },
+      "issues": [
+        {
+          "line": 29,
+          "message": "The empty tag : [ br ] must be self closed.",
+          "description": "Empty tags must be self closed.",
+          "rulekey": "tag-self-close",
+          "severity": "minor",
+          "reporter": "htmlhint",
+          "creationDate": 1480692701858
+        },
+        {
+          "line": 29,
+          "message": "The empty tag : [ br ] must be self closed.",
+          "description": "Empty tags must be self closed.",
+          "rulekey": "tag-self-close",
+          "severity": "minor",
+          "reporter": "htmlhint",
+          "creationDate": 1480692701858
+        }
+      ]
+    },
+    {
       "name": "index.html",
-      "path": "/index.html",
+      "path": "src/public",
       "nbLines": 13,
       "nbComments": 0,
       "nbCloc": 13,
@@ -34,15 +68,15 @@
       "issues": []
     }
   ],
-  "nbFiles": 2,
-  "nbLines": 13,
-  "nbCloc": 13,
+  "nbFiles": 3,
+  "nbLines": 89,
+  "nbCloc": 88,
   "nbComments": 0,
   "violations": {
     "blocker": 0,
     "critical": 0,
     "major": 0,
-    "minor": 0,
+    "minor": 2,
     "info": 0
   }
 }

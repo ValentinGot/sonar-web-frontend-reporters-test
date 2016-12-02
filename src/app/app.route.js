@@ -8,6 +8,12 @@ export default function ($stateProvider, $urlRouterProvider) {
     .state('app', {
       url      : '/',
       component: 'app'
+    })
+    .state('test', {
+      url: '/test',
+      templateUrl: 'app/test/test.html',
+      controller: 'TestController',
+      controllerAs: 'test'
     });
 
   $urlRouterProvider.otherwise('/');

@@ -5,7 +5,7 @@
   "files": [
     {
       "name": "app.component.js",
-      "path": "/app.component.js",
+      "path": "src/app",
       "nbLines": 5,
       "nbComments": 0,
       "nbCloc": 5,
@@ -20,7 +20,7 @@
     },
     {
       "name": "app.config.js",
-      "path": "/app.config.js",
+      "path": "src/app",
       "nbLines": 16,
       "nbComments": 0,
       "nbCloc": 15,
@@ -39,13 +39,13 @@
           "rulekey": "no-unused-vars",
           "severity": "info",
           "reporter": "eslint",
-          "creationDate": 1480674191158
+          "creationDate": 1480692701625
         }
       ]
     },
     {
       "name": "app.js",
-      "path": "/app.js",
+      "path": "src/app",
       "nbLines": 25,
       "nbComments": 0,
       "nbCloc": 25,
@@ -60,29 +60,100 @@
     },
     {
       "name": "app.route.js",
-      "path": "/app.route.js",
-      "nbLines": 15,
+      "path": "src/app",
+      "nbLines": 21,
       "nbComments": 0,
-      "nbCloc": 15,
+      "nbCloc": 21,
       "violations": {
         "blocker": 0,
         "critical": 0,
         "major": 0,
         "minor": 0,
-        "info": 0
+        "info": 3
       },
-      "issues": []
+      "issues": [
+        {
+          "line": 13,
+          "message": "Missing space after key 'url'.",
+          "description": "",
+          "rulekey": "key-spacing",
+          "severity": "info",
+          "reporter": "eslint",
+          "creationDate": 1480692701695
+        },
+        {
+          "line": 14,
+          "message": "Missing space after key 'templateUrl'.",
+          "description": "",
+          "rulekey": "key-spacing",
+          "severity": "info",
+          "reporter": "eslint",
+          "creationDate": 1480692701695
+        },
+        {
+          "line": 15,
+          "message": "Missing space after key 'controller'.",
+          "description": "",
+          "rulekey": "key-spacing",
+          "severity": "info",
+          "reporter": "eslint",
+          "creationDate": 1480692701695
+        }
+      ]
+    },
+    {
+      "name": "test.controller.js",
+      "path": "src/app/test",
+      "nbLines": 21,
+      "nbComments": 0,
+      "nbCloc": 21,
+      "violations": {
+        "blocker": 0,
+        "critical": 0,
+        "major": 0,
+        "minor": 0,
+        "info": 3
+      },
+      "issues": [
+        {
+          "line": 12,
+          "message": "You should prefer the factory() method instead of service()",
+          "description": "",
+          "rulekey": "angular/no-service-method",
+          "severity": "info",
+          "reporter": "eslint",
+          "creationDate": 1480692701721
+        },
+        {
+          "line": 12,
+          "message": "The Test controller should follow this pattern: /[A-Z].*Controller$/",
+          "description": "",
+          "rulekey": "angular/controller-name",
+          "severity": "info",
+          "reporter": "eslint",
+          "creationDate": 1480692701721
+        },
+        {
+          "line": 19,
+          "message": "'a' is assigned a value but never used.",
+          "description": "",
+          "rulekey": "no-unused-vars",
+          "severity": "info",
+          "reporter": "eslint",
+          "creationDate": 1480692701721
+        }
+      ]
     }
   ],
-  "nbFiles": 4,
-  "nbLines": 61,
-  "nbCloc": 60,
+  "nbFiles": 5,
+  "nbLines": 88,
+  "nbCloc": 87,
   "nbComments": 0,
   "violations": {
     "blocker": 0,
     "critical": 0,
     "major": 0,
     "minor": 0,
-    "info": 1
+    "info": 7
   }
 }

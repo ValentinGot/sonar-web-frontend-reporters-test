@@ -1545,7 +1545,7 @@ eslint@^2.7.0:
     text-table "~0.2.0"
     user-home "^2.0.0"
 
-eslint@^3.11.1, eslint@^3.9.1:
+eslint@^3.11.1:
   version "3.11.1"
   resolved "https://registry.yarnpkg.com/eslint/-/eslint-3.11.1.tgz#408be581041385cba947cd8d1cd2227782b55dbf"
   dependencies:
@@ -4324,7 +4324,7 @@ sockjs@^0.3.15:
     faye-websocket "^0.10.0"
     uuid "^2.0.2"
 
-"sonar-web-frontend-reporters@git://github.com/groupe-sii/sonar-web-frontend-reporters.git#develop", "sonar-web-frontend-reporters@https://github.com/groupe-sii/sonar-web-frontend-reporters.git#develop":
+"sonar-web-frontend-reporters@https://github.com/groupe-sii/sonar-web-frontend-reporters.git#develop":
   version "3.0.0"
   resolved "https://github.com/groupe-sii/sonar-web-frontend-reporters.git#aa7aa674f6aaed2c74c0b35849ecd3cbda58f47b"
   dependencies:

@@ -5,27 +5,18 @@
   "files": [
     {
       "name": "main.scss",
-      "path": "/main.scss",
-      "nbLines": 3,
+      "path": "src/styles",
+      "nbLines": 22,
       "nbComments": 0,
-      "nbCloc": 3,
+      "nbCloc": 22,
       "violations": {
         "blocker": 0,
         "critical": 0,
         "major": 0,
-        "minor": 2,
+        "minor": 20,
         "info": 0
       },
       "issues": [
-        {
-          "line": 2,
-          "message": "Hex values should use the long-form format - 6 characters",
-          "description": "Hex values should use the long-form format - 6 characters",
-          "rulekey": "hex-length",
-          "severity": "minor",
-          "reporter": "sasslint",
-          "creationDate": 1480674191348
-        },
         {
           "line": 2,
           "message": "Color literals such as '#FFF' should only be used in variable declarations",
@@ -33,20 +24,191 @@
           "rulekey": "no-color-literals",
           "severity": "minor",
           "reporter": "sasslint",
-          "creationDate": 1480674191348
+          "creationDate": 1480692701941
+        },
+        {
+          "line": 2,
+          "message": "Hex values should use the long-form format - 6 characters",
+          "description": "Hex values should use the long-form format - 6 characters",
+          "rulekey": "hex-length",
+          "severity": "minor",
+          "reporter": "sasslint",
+          "creationDate": 1480692701941
+        },
+        {
+          "line": 3,
+          "message": "Space expected between blocks",
+          "description": "Space expected between blocks",
+          "rulekey": "empty-line-between-blocks",
+          "severity": "minor",
+          "reporter": "sasslint",
+          "creationDate": 1480692701941
+        },
+        {
+          "line": 4,
+          "message": "Hex values should use the long-form format - 6 characters",
+          "description": "Hex values should use the long-form format - 6 characters",
+          "rulekey": "hex-length",
+          "severity": "minor",
+          "reporter": "sasslint",
+          "creationDate": 1480692701941
+        },
+        {
+          "line": 4,
+          "message": "Color literals such as '#FFF' should only be used in variable declarations",
+          "description": "Color literals such as '#FFF' should only be used in variable declarations",
+          "rulekey": "no-color-literals",
+          "severity": "minor",
+          "reporter": "sasslint",
+          "creationDate": 1480692701941
+        },
+        {
+          "line": 5,
+          "message": "Space expected between blocks",
+          "description": "Space expected between blocks",
+          "rulekey": "empty-line-between-blocks",
+          "severity": "minor",
+          "reporter": "sasslint",
+          "creationDate": 1480692701941
+        },
+        {
+          "line": 6,
+          "message": "Color literals such as '#FFF' should only be used in variable declarations",
+          "description": "Color literals such as '#FFF' should only be used in variable declarations",
+          "rulekey": "no-color-literals",
+          "severity": "minor",
+          "reporter": "sasslint",
+          "creationDate": 1480692701941
+        },
+        {
+          "line": 6,
+          "message": "Hex values should use the long-form format - 6 characters",
+          "description": "Hex values should use the long-form format - 6 characters",
+          "rulekey": "hex-length",
+          "severity": "minor",
+          "reporter": "sasslint",
+          "creationDate": 1480692701941
+        },
+        {
+          "line": 7,
+          "message": "Space expected between blocks",
+          "description": "Space expected between blocks",
+          "rulekey": "empty-line-between-blocks",
+          "severity": "minor",
+          "reporter": "sasslint",
+          "creationDate": 1480692701941
+        },
+        {
+          "line": 8,
+          "message": "Color literals such as '#FFF' should only be used in variable declarations",
+          "description": "Color literals such as '#FFF' should only be used in variable declarations",
+          "rulekey": "no-color-literals",
+          "severity": "minor",
+          "reporter": "sasslint",
+          "creationDate": 1480692701941
+        },
+        {
+          "line": 8,
+          "message": "Hex values should use the long-form format - 6 characters",
+          "description": "Hex values should use the long-form format - 6 characters",
+          "rulekey": "hex-length",
+          "severity": "minor",
+          "reporter": "sasslint",
+          "creationDate": 1480692701941
+        },
+        {
+          "line": 9,
+          "message": "Space expected between blocks",
+          "description": "Space expected between blocks",
+          "rulekey": "empty-line-between-blocks",
+          "severity": "minor",
+          "reporter": "sasslint",
+          "creationDate": 1480692701941
+        },
+        {
+          "line": 10,
+          "message": "Color literals such as '#FFF' should only be used in variable declarations",
+          "description": "Color literals such as '#FFF' should only be used in variable declarations",
+          "rulekey": "no-color-literals",
+          "severity": "minor",
+          "reporter": "sasslint",
+          "creationDate": 1480692701941
+        },
+        {
+          "line": 10,
+          "message": "Hex values should use the long-form format - 6 characters",
+          "description": "Hex values should use the long-form format - 6 characters",
+          "rulekey": "hex-length",
+          "severity": "minor",
+          "reporter": "sasslint",
+          "creationDate": 1480692701941
+        },
+        {
+          "line": 11,
+          "message": "Space expected between blocks",
+          "description": "Space expected between blocks",
+          "rulekey": "empty-line-between-blocks",
+          "severity": "minor",
+          "reporter": "sasslint",
+          "creationDate": 1480692701941
+        },
+        {
+          "line": 12,
+          "message": "Hex values should use the long-form format - 6 characters",
+          "description": "Hex values should use the long-form format - 6 characters",
+          "rulekey": "hex-length",
+          "severity": "minor",
+          "reporter": "sasslint",
+          "creationDate": 1480692701941
+        },
+        {
+          "line": 12,
+          "message": "Color literals such as '#FFF' should only be used in variable declarations",
+          "description": "Color literals such as '#FFF' should only be used in variable declarations",
+          "rulekey": "no-color-literals",
+          "severity": "minor",
+          "reporter": "sasslint",
+          "creationDate": 1480692701941
+        },
+        {
+          "line": 13,
+          "message": "Space expected between blocks",
+          "description": "Space expected between blocks",
+          "rulekey": "empty-line-between-blocks",
+          "severity": "minor",
+          "reporter": "sasslint",
+          "creationDate": 1480692701941
+        },
+        {
+          "line": 14,
+          "message": "Hex values should use the long-form format - 6 characters",
+          "description": "Hex values should use the long-form format - 6 characters",
+          "rulekey": "hex-length",
+          "severity": "minor",
+          "reporter": "sasslint",
+          "creationDate": 1480692701941
+        },
+        {
+          "line": 14,
+          "message": "Color literals such as '#FFF' should only be used in variable declarations",
+          "description": "Color literals such as '#FFF' should only be used in variable declarations",
+          "rulekey": "no-color-literals",
+          "severity": "minor",
+          "reporter": "sasslint",
+          "creationDate": 1480692701941
         }
       ]
     }
   ],
   "nbFiles": 1,
-  "nbLines": 3,
-  "nbCloc": 3,
+  "nbLines": 22,
+  "nbCloc": 22,
   "nbComments": 0,
   "violations": {
     "blocker": 0,
     "critical": 0,
     "major": 0,
-    "minor": 2,
+    "minor": 20,
     "info": 0
   }
 }
