@@ -17,7 +17,7 @@
   },
   "sasslint": {
     "src": "src/**/*.s+(a|c)ss",
-    "report": "reports/sonar/sasslint.json",
+    "report": "reports/sonar/scsslint.json",
     "rulesFile": "src/.sass-lint.yml"
   }
 }
