@@ -17,7 +17,7 @@
     "angular-aria": "^1.5.8",
     "angular-ui-router": "^1.0.0-beta.3",
     "restangular": "^1.5.2",
-    "sonar-web-frontend-reporters": "git://github.com/groupe-sii/sonar-web-frontend-reporters.git#develop"
+    "sonar-web-frontend-reporters": "https://github.com/groupe-sii/sonar-web-frontend-reporters.git#develop"
   },
   "devDependencies": {
     "angular-mocks": "^1.5.8",
